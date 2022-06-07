@@ -2,6 +2,7 @@ const User = require("../models/User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
+// fake database
 let refreshTokens = [];
 class AuthController {
   //Register
